@@ -1,0 +1,18 @@
+.p-hero {
+    margin-top: 80px;
+}
+
+.p-hero-wrapper {
+    border-radius: 16px;
+    padding: 95px 60px;
+}
+
+.p-hero-title {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: clamp(32px, 3vw, 48px);
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 40px;
+    max-width: 750px;
+}

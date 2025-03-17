@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold?styles=20879" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+    <title>polygal</title>
+</head>
+<body>
+
+    <main class="main">
+        <section class="p-hero" >
+            <div class="container">
+                <div class="p-hero-wrapper" style="background: url('./images/p-hero-bg.png') center / cover no-repeat">
+                    <h1 class="p-hero-title">Все про поликарбонат и садоводство</h1>
+
+                    <button type="button" data-open-modal="modal-news" class="p-btn">Подписаться на новости</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="breadcrumbs">
+            <div class="container">
+                <ul>
+                    <li><a href="">Главная</a></li>
+                    <li>Блог</li>
+                </ul>
+            </div>
+        </div>
+
+        <section class="p-articles">
+            <div class="container">
+                <div class="p-articles__search">
+                    <input type="text" placeholder="Введите ключевые слова">
+                    <button type="button" class="p-btn p-articles__btn">
+                          <svg width="18" height="19" viewBox="0 0 18 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M15.75 16.25L12.525 13.025M14.25 8.75C14.25 12.0637 11.5637 14.75 8.25 14.75C4.93629 14.75 2.25 12.0637 2.25 8.75C2.25 5.43629 4.93629 2.75 8.25 2.75C11.5637 2.75 14.25 5.43629 14.25 8.75Z" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                          </svg>
+                        Поиск по статьям
+                    </button>
+                </div>
+
+                <div class="p-articles-block">
+                    <div class="p-title p-articles-title">статьи про поликарбонат и строительство</div>
+
+                    <div class="p-articles-navigation">
+                        <ul class="list-reset list">
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn active">Все статьи</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Поликарбонат</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Теплицы</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Беседки</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Фундамент</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Правила монтажа</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Типичные ошибки при монтаже</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Как выбрать поликарбонат</button></li>
+                        </ul>
+                    </div>
+
+                    <div class="p-articles-items">
+                        <article class="item item--row">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="content">
+                                <div class="actions">
+                                    <span class="views">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          122
+                                    </span>
+                                    <span class="likes">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          46
+                                    </span>
+                                    <span class="dates">10.01.2025</span>
+                                </div>
+                                <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                                <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                            </div>
+                        </article>
+                        <article class="item">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="actions">
+                                <span class="views">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      122
+                                </span>
+                                <span class="likes">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      46
+                                </span>
+                                <span class="dates">10.01.2025</span>
+                            </div>
+                            <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                            <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                        </article>
+                        <article class="item">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="actions">
+                                <span class="views">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      122
+                                </span>
+                                <span class="likes">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      46
+                                </span>
+                                <span class="dates">10.01.2025</span>
+                            </div>
+                            <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                            <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                        </article>
+                        <article class="item">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="actions">
+                                <span class="views">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      122
+                                </span>
+                                <span class="likes">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      46
+                                </span>
+                                <span class="dates">10.01.2025</span>
+                            </div>
+                            <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                            <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                        </article>
+                    </div>
+
+                    <div class="p-articles-pagination">
+                        <div class="prev">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(1 1.74846e-07 1.74846e-07 -1 0 36)" fill="#ECF3F6" />
+                                <path d="M23 8L13 18L23 28" stroke="#2C679F" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="numbers">
+                            <a class="_current" href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a>
+                            <a href="">4</a>
+                            <a href="">5</a>
+                        </div>
+                        <div class="next">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(-1 0 0 1 36 0)" fill="#ECF3F6" />
+                                <path d="M13 28L23 18L13 8" stroke="#2C679F" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="p-votes">
+            <div class="container">
+                <div class="p-votes-wrapper _p-votes-start">
+                    <div class="p-votes-title">Какую новую продукцию вы хотите <br/> видеть на нашем сайте</div>
+                    <div class="p-votes-options">
+                        <div class="p-votes-option">
+                            <input type="checkbox">
+                            <label for="">Киви сотовый</label>
+                        </div>
+                        <div class="p-votes-option">
+                            <input type="checkbox">
+                            <label for="">СТАНДАРТ TITAN SKY</label>
+                        </div>
+                        <div class="p-votes-option">
+                            <input type="checkbox">
+                            <label for="">Киви сотовый</label>
+                        </div>
+                        <div class="p-votes-option">
+                            <input type="checkbox">
+                            <label for="">СТАНДАРТ TITAN SKY</label>
+                        </div>
+                    </div>
+                    <button type="button" class="p-btn p-votes-btn" data-btn="votes">Проголосовать</button>
+                </div>
+                <div class="p-votes-wrapper _p-votes-end" style="display: none;">
+                    <div class="p-votes-title">Спасибо за участие в опросе!</div>
+                    <div class="p-votes-desc"> 
+                        Подпишитесь на нашу рассылку, чтобы не пропустить новые статьи 
+                        на темы, которые вас интересуют!
+                    </div>
+                    <button type="button" class="p-btn" data-open-modal="modal-news">Подписаться на новости</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="p-articles p-articles--green">
+            <div class="container">
+                
+
+                <div class="p-articles-block">
+                    <div class="p-title p-articles-title">статьи про поликарбонат и строительство</div>
+
+                    <div class="p-articles-navigation">
+                        <ul class="list-reset list">
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn active">Все статьи</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Поликарбонат</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Теплицы</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Беседки</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Фундамент</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Правила монтажа</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Типичные ошибки при монтаже</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Как выбрать поликарбонат</button></li>
+                        </ul>
+                    </div>
+
+                    <div class="p-articles-items">
+                        <article class="item item--row">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="content">
+                                <div class="actions">
+                                    <span class="views">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          122
+                                    </span>
+                                    <span class="likes">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          46
+                                    </span>
+                                    <span class="dates">10.01.2025</span>
+                                </div>
+                                <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                                <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                            </div>
+                        </article>
+                        <article class="item">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="actions">
+                                <span class="views">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      122
+                                </span>
+                                <span class="likes">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      46
+                                </span>
+                                <span class="dates">10.01.2025</span>
+                            </div>
+                            <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                            <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                        </article>
+                        <article class="item">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="actions">
+                                <span class="views">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      122
+                                </span>
+                                <span class="likes">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      46
+                                </span>
+                                <span class="dates">10.01.2025</span>
+                            </div>
+                            <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                            <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                        </article>
+                        <article class="item">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="actions">
+                                <span class="views">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      122
+                                </span>
+                                <span class="likes">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      46
+                                </span>
+                                <span class="dates">10.01.2025</span>
+                            </div>
+                            <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                            <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                        </article>
+                    </div>
+
+                    <div class="p-articles-pagination">
+                        <div class="prev">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(1 1.74846e-07 1.74846e-07 -1 0 36)" fill="#ECF3F6" />
+                                <path d="M23 8L13 18L23 28" stroke="#2C679F" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="numbers">
+                            <a class="_current" href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a>
+                            <a href="">4</a>
+                            <a href="">5</a>
+                        </div>
+                        <div class="next">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(-1 0 0 1 36 0)" fill="#ECF3F6" />
+                                <path d="M13 28L23 18L13 8" stroke="#2C679F" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="p-articles-popular">
+            <div class="container">
+                <div class="top">
+                    <div class="p-title no-border">Самые популярные статьи</div>
+                    <select>
+                        <option value="">За все время</option>
+                        <option value="">За вчера</option>
+                        <option value="">За позавчера</option>
+                        <option value="">За сегодня</option>
+                    </select>
+
+                    <div class="navigation">
+                        <div class="nav-btn prev">
+                            <svg style="pointer-events: none;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(1 1.74846e-07 1.74846e-07 -1 0 36)" fill="#2C679F" />
+                                <path d="M23 8L13 18L23 28" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </div>
+                        <div class="nav-btn next">
+                            <svg style="pointer-events: none;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(-1 0 0 1 36 0)" fill="#2C679F" />
+                                <path d="M13 28L23 18L13 8" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="swiper articles-popular-swiper">
+                   <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="link"></div>
+                            <div class="lside">
+                                <img src="./images/img-1.png" alt="Название статьи">
+                            </div>
+                            <div class="rside">
+                                <div class="actions">
+                                    <span>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.54688 9.26103C1.48437 9.09264 1.48437 8.90741 1.54688 8.73903C2.15565 7.26292 3.18902 6.00081 4.51596 5.1127C5.8429 4.22459 7.40366 3.75049 9.00038 3.75049C10.5971 3.75049 12.1579 4.22459 13.4848 5.1127C14.8117 6.00081 15.8451 7.26292 16.4539 8.73903C16.5164 8.90741 16.5164 9.09264 16.4539 9.26103C15.8451 10.7371 14.8117 11.9992 13.4848 12.8874C12.1579 13.7755 10.5971 14.2496 9.00038 14.2496C7.40366 14.2496 5.8429 13.7755 4.51596 12.8874C3.18902 11.9992 2.15565 10.7371 1.54688 9.26103Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00038 11.25C10.243 11.25 11.2504 10.2427 11.2504 9.00003C11.2504 7.75739 10.243 6.75003 9.00038 6.75003C7.75774 6.75003 6.75038 7.75739 6.75038 9.00003C6.75038 10.2427 7.75774 11.25 9.00038 11.25Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                        122
+                                    </span>
+                                    <span>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          46
+                                        </span>
+                                    <span>10.01.2025</span>
+                                </div>
+                                <div class="title">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</div>
+                                <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="link"></div>
+                            <div class="lside">
+                                <img src="./images/img-1.png" alt="Название статьи">
+                            </div>
+                            <div class="rside">
+                                <div class="actions">
+                                    <span>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.54688 9.26103C1.48437 9.09264 1.48437 8.90741 1.54688 8.73903C2.15565 7.26292 3.18902 6.00081 4.51596 5.1127C5.8429 4.22459 7.40366 3.75049 9.00038 3.75049C10.5971 3.75049 12.1579 4.22459 13.4848 5.1127C14.8117 6.00081 15.8451 7.26292 16.4539 8.73903C16.5164 8.90741 16.5164 9.09264 16.4539 9.26103C15.8451 10.7371 14.8117 11.9992 13.4848 12.8874C12.1579 13.7755 10.5971 14.2496 9.00038 14.2496C7.40366 14.2496 5.8429 13.7755 4.51596 12.8874C3.18902 11.9992 2.15565 10.7371 1.54688 9.26103Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00038 11.25C10.243 11.25 11.2504 10.2427 11.2504 9.00003C11.2504 7.75739 10.243 6.75003 9.00038 6.75003C7.75774 6.75003 6.75038 7.75739 6.75038 9.00003C6.75038 10.2427 7.75774 11.25 9.00038 11.25Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                        122
+                                    </span>
+                                    <span>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          46
+                                        </span>
+                                    <span>10.01.2025</span>
+                                </div>
+                                <div class="title">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</div>
+                                <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="item">
+                            <div class="link"></div>
+                            <div class="lside">
+                                <img src="./images/img-1.png" alt="Название статьи">
+                            </div>
+                            <div class="rside">
+                                <div class="actions">
+                                    <span>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.54688 9.26103C1.48437 9.09264 1.48437 8.90741 1.54688 8.73903C2.15565 7.26292 3.18902 6.00081 4.51596 5.1127C5.8429 4.22459 7.40366 3.75049 9.00038 3.75049C10.5971 3.75049 12.1579 4.22459 13.4848 5.1127C14.8117 6.00081 15.8451 7.26292 16.4539 8.73903C16.5164 8.90741 16.5164 9.09264 16.4539 9.26103C15.8451 10.7371 14.8117 11.9992 13.4848 12.8874C12.1579 13.7755 10.5971 14.2496 9.00038 14.2496C7.40366 14.2496 5.8429 13.7755 4.51596 12.8874C3.18902 11.9992 2.15565 10.7371 1.54688 9.26103Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00038 11.25C10.243 11.25 11.2504 10.2427 11.2504 9.00003C11.2504 7.75739 10.243 6.75003 9.00038 6.75003C7.75774 6.75003 6.75038 7.75739 6.75038 9.00003C6.75038 10.2427 7.75774 11.25 9.00038 11.25Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                        122
+                                    </span>
+                                    <span>
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          46
+                                        </span>
+                                    <span>10.01.2025</span>
+                                </div>
+                                <div class="title">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</div>
+                                <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.</div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+
+
+            </div>
+        </section>
+
+        <section class="p-articles p-articles--green">
+            <div class="container">
+                
+
+                <div class="p-articles-block p-articles--orange">
+                    <div class="p-title p-articles-title">статьи про поликарбонат и строительство</div>
+
+                    <div class="p-articles-navigation">
+                        <ul class="list-reset list">
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn active">Все статьи</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Поликарбонат</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Теплицы</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Беседки</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Фундамент</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Правила монтажа</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Типичные ошибки при монтаже</button></li>
+                            <li class="item"> <button type="button" class="p-articles-navigation-btn">Как выбрать поликарбонат</button></li>
+                        </ul>
+                    </div>
+
+                    <div class="p-articles-items">
+                        <article class="item item--row">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="content">
+                                <div class="actions">
+                                    <span class="views">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          122
+                                    </span>
+                                    <span class="likes">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          46
+                                    </span>
+                                    <span class="dates">10.01.2025</span>
+                                </div>
+                                <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                                <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                            </div>
+                        </article>
+                        <article class="item">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="actions">
+                                <span class="views">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      122
+                                </span>
+                                <span class="likes">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      46
+                                </span>
+                                <span class="dates">10.01.2025</span>
+                            </div>
+                            <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                            <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                        </article>
+                        <article class="item">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="actions">
+                                <span class="views">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      122
+                                </span>
+                                <span class="likes">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      46
+                                </span>
+                                <span class="dates">10.01.2025</span>
+                            </div>
+                            <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                            <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                        </article>
+                        <article class="item">
+                            <a class="link" href=""></a>
+                            <div class="placeholder">Как выбрать поликарбонат</div>
+                            <a href="" class="image">
+                                <img src="images/article.png" alt="">
+                            </a>
+                            <div class="actions">
+                                <span class="views">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.54688 9.26054C1.48437 9.09215 1.48437 8.90692 1.54688 8.73854C2.15565 7.26243 3.18902 6.00032 4.51596 5.11221C5.8429 4.22411 7.40366 3.75 9.00038 3.75C10.5971 3.75 12.1579 4.22411 13.4848 5.11221C14.8117 6.00032 15.8451 7.26243 16.4539 8.73854C16.5164 8.90692 16.5164 9.09215 16.4539 9.26054C15.8451 10.7366 14.8117 11.9988 13.4848 12.8869C12.1579 13.775 10.5971 14.2491 9.00038 14.2491C7.40366 14.2491 5.8429 13.775 4.51596 12.8869C3.18902 11.9988 2.15565 10.7366 1.54688 9.26054Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M9.00038 11.2495C10.243 11.2495 11.2504 10.2422 11.2504 8.99954C11.2504 7.7569 10.243 6.74954 9.00038 6.74954C7.75774 6.74954 6.75038 7.7569 6.75038 8.99954C6.75038 10.2422 7.75774 11.2495 9.00038 11.2495Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      122
+                                </span>
+                                <span class="likes">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.25 7.5V16.5M11.25 4.41L10.5 7.5H14.8725C15.1054 7.5 15.335 7.55422 15.5433 7.65836C15.7516 7.7625 15.9328 7.91371 16.0725 8.1C16.2122 8.28629 16.3066 8.50256 16.3483 8.73167C16.39 8.96078 16.3777 9.19645 16.3125 9.42L14.565 15.42C14.4741 15.7316 14.2846 16.0053 14.025 16.2C13.7654 16.3947 13.4496 16.5 13.125 16.5H3C2.60218 16.5 2.22064 16.342 1.93934 16.0607C1.65804 15.7794 1.5 15.3978 1.5 15V9C1.5 8.60218 1.65804 8.22064 1.93934 7.93934C2.22064 7.65804 2.60218 7.5 3 7.5H5.07C5.34906 7.49985 5.62255 7.42186 5.85972 7.27479C6.09688 7.12772 6.28832 6.91741 6.4125 6.6675L9 1.5C9.35368 1.50438 9.7018 1.58863 10.0184 1.74645C10.3349 1.90427 10.6117 2.13158 10.8281 2.4114C11.0444 2.69122 11.1947 3.01632 11.2678 3.3624C11.3409 3.70848 11.3348 4.0666 11.25 4.41Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                      </svg>
+                                      46
+                                </span>
+                                <span class="dates">10.01.2025</span>
+                            </div>
+                            <a class="title" href="">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан по всем</a>
+                            <div class="desc">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка. Предназначен для применения его в светопрозрачных конструкциях.s</div>
+                        </article>
+                    </div>
+
+                    <div class="p-articles-pagination">
+                        <div class="prev">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(1 1.74846e-07 1.74846e-07 -1 0 36)" fill="#ECF3F6" />
+                                <path d="M23 8L13 18L23 28" stroke="#2C679F" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                        <div class="numbers">
+                            <a class="_current" href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a>
+                            <a href="">4</a>
+                            <a href="">5</a>
+                        </div>
+                        <div class="next">
+                            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(-1 0 0 1 36 0)" fill="#ECF3F6" />
+                                <path d="M13 28L23 18L13 8" stroke="#2C679F" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section class="p-videos">
+            <div class="container">
+                <div class="top">
+                    <div class="p-title no-border">видеоматериалы полигаль восток</div>
+                    <div class="navigation">
+                        <div class="nav-btn prev">
+                            <svg style="pointer-events: none;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(1 1.74846e-07 1.74846e-07 -1 0 36)" fill="#2C679F" />
+                                <path d="M23 8L13 18L23 28" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </div>
+                        <div class="nav-btn next">
+                            <svg style="pointer-events: none;" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="36" height="36" rx="8" transform="matrix(-1 0 0 1 36 0)" fill="#2C679F" />
+                                <path d="M13 28L23 18L13 8" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                              </svg>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper p-videos-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="video">
+                                    <video src="" poster="./images/poster.png"></video>
+                                    <button type="button" class="video-play"></button>
+                                </div>
+                                <div class="actions">
+                                    <span class="time">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 4.5V9L12 10.5M16.5 9C16.5 13.1421 13.1421 16.5 9 16.5C4.85786 16.5 1.5 13.1421 1.5 9C1.5 4.85786 4.85786 1.5 9 1.5C13.1421 1.5 16.5 4.85786 16.5 9Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          3:25
+                                    </span>
+                                    <span class="view">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.54688 9.26103C1.48437 9.09264 1.48437 8.90741 1.54688 8.73903C2.15565 7.26292 3.18902 6.00081 4.51596 5.1127C5.8429 4.22459 7.40366 3.75049 9.00038 3.75049C10.5971 3.75049 12.1579 4.22459 13.4848 5.1127C14.8117 6.00081 15.8451 7.26292 16.4539 8.73903C16.5164 8.90741 16.5164 9.09264 16.4539 9.26103C15.8451 10.7371 14.8117 11.9992 13.4848 12.8874C12.1579 13.7755 10.5971 14.2496 9.00038 14.2496C7.40366 14.2496 5.8429 13.7755 4.51596 12.8874C3.18902 11.9992 2.15565 10.7371 1.54688 9.26103Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00038 11.25C10.243 11.25 11.2504 10.2427 11.2504 9.00003C11.2504 7.75739 10.243 6.75003 9.00038 6.75003C7.75774 6.75003 6.75038 7.75739 6.75038 9.00003C6.75038 10.2427 7.75774 11.25 9.00038 11.25Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          122
+                                    </span>
+                                    <span class="date">10.01.2025</span>
+                                </div>
+
+                                <div class="title">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="video">
+                                    <video src="" poster="./images/poster.png"></video>
+                                    <button type="button" class="video-play"></button>
+                                </div>
+                                <div class="actions">
+                                    <span class="time">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 4.5V9L12 10.5M16.5 9C16.5 13.1421 13.1421 16.5 9 16.5C4.85786 16.5 1.5 13.1421 1.5 9C1.5 4.85786 4.85786 1.5 9 1.5C13.1421 1.5 16.5 4.85786 16.5 9Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          3:25
+                                    </span>
+                                    <span class="view">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.54688 9.26103C1.48437 9.09264 1.48437 8.90741 1.54688 8.73903C2.15565 7.26292 3.18902 6.00081 4.51596 5.1127C5.8429 4.22459 7.40366 3.75049 9.00038 3.75049C10.5971 3.75049 12.1579 4.22459 13.4848 5.1127C14.8117 6.00081 15.8451 7.26292 16.4539 8.73903C16.5164 8.90741 16.5164 9.09264 16.4539 9.26103C15.8451 10.7371 14.8117 11.9992 13.4848 12.8874C12.1579 13.7755 10.5971 14.2496 9.00038 14.2496C7.40366 14.2496 5.8429 13.7755 4.51596 12.8874C3.18902 11.9992 2.15565 10.7371 1.54688 9.26103Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00038 11.25C10.243 11.25 11.2504 10.2427 11.2504 9.00003C11.2504 7.75739 10.243 6.75003 9.00038 6.75003C7.75774 6.75003 6.75038 7.75739 6.75038 9.00003C6.75038 10.2427 7.75774 11.25 9.00038 11.25Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          122
+                                    </span>
+                                    <span class="date">10.01.2025</span>
+                                </div>
+
+                                <div class="title">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="item">
+                                <div class="video">
+                                    <video src="" poster="./images/poster.png"></video>
+                                    <button type="button" class="video-play"></button>
+                                </div>
+                                <div class="actions">
+                                    <span class="time">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9 4.5V9L12 10.5M16.5 9C16.5 13.1421 13.1421 16.5 9 16.5C4.85786 16.5 1.5 13.1421 1.5 9C1.5 4.85786 4.85786 1.5 9 1.5C13.1421 1.5 16.5 4.85786 16.5 9Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          3:25
+                                    </span>
+                                    <span class="view">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1.54688 9.26103C1.48437 9.09264 1.48437 8.90741 1.54688 8.73903C2.15565 7.26292 3.18902 6.00081 4.51596 5.1127C5.8429 4.22459 7.40366 3.75049 9.00038 3.75049C10.5971 3.75049 12.1579 4.22459 13.4848 5.1127C14.8117 6.00081 15.8451 7.26292 16.4539 8.73903C16.5164 8.90741 16.5164 9.09264 16.4539 9.26103C15.8451 10.7371 14.8117 11.9992 13.4848 12.8874C12.1579 13.7755 10.5971 14.2496 9.00038 14.2496C7.40366 14.2496 5.8429 13.7755 4.51596 12.8874C3.18902 11.9992 2.15565 10.7371 1.54688 9.26103Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                            <path d="M9.00038 11.25C10.243 11.25 11.2504 10.2427 11.2504 9.00003C11.2504 7.75739 10.243 6.75003 9.00038 6.75003C7.75774 6.75003 6.75038 7.75739 6.75038 9.00003C6.75038 10.2427 7.75774 11.25 9.00038 11.25Z" stroke="#404040" stroke-linecap="round" stroke-linejoin="round" />
+                                          </svg>
+                                          122
+                                    </span>
+                                    <span class="date">10.01.2025</span>
+                                </div>
+
+                                <div class="title">Слегка облегченный сотовый поликарбонат под торговой маркой «Колибри» разработан специально для российского рынка</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="p-cb">
+            <div class="container">
+                <div class="p-cb-wrapper">
+                    <div class="lside">
+                        <div class="title">Узнавайте самые <br/> интересные <br/>
+                            новости первыми
+                        </div>
+                        <div class="desc">
+                            Никакого спама, присылаем только самую важную и интересную информацию
+                        </div>
+                    </div>
+                    <div class="rside">
+                        <form action="" class="p-form">
+                            <div class="p-form-row">
+                                <input type="text" placeholder="Ваше имя* ">
+                            </div>
+                            <div class="p-form-row">
+                                <input type="text" placeholder="Email* ">
+                            </div>
+                            <div class="p-form-bottom">
+                                <div class="policy">
+                                    <input type="checkbox" class="checkbox-input" checked>
+                                    <span>Я принимаю условия обработки персональных данных</span>
+                                </div>
+                                <button type="submit" class="p-btn p-form-btn">Подписаться на рассылку</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <div class="modal-news _active" id="modal-news">
+        <div class="modal-news-container">
+            <div class="modal-news-close">
+                <svg style="pointer-events: none;" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18M6 6L18 18" stroke="#2C679F" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+            </div>
+
+            <div class="modal-news-content">
+                <div class="title p-title no-border">
+                    Узнавайте самые интересные <br/>
+                    новости первыми
+                </div>
+                <div class="desc">
+                    Никакого спама, присылаем только самую важную и интересную информацию
+                </div>
+
+                <form action="" class="p-form">
+                    <div class="p-form-row">
+                        <input type="text" placeholder="Ваше имя* ">
+                    </div>
+                    <div class="p-form-row">
+                        <input type="text" placeholder="Email* ">
+                    </div>
+                    <div class="p-form-bottom">
+                        <div class="policy">
+                            <input type="checkbox" class="checkbox-input" checked>
+                            <span>Я принимаю условия обработки персональных данных</span>
+                        </div>
+                        <button type="submit" class="p-btn p-form-btn">Подписаться на рассылку</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const p_swiper = new Swiper('.articles-popular-swiper', {
+            navigation: {
+                prevEl: '.p-articles-popular .prev',
+                nextEl: '.p-articles-popular .next'
+            },
+
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                }
+            }
+        })
+
+        const p_swiper_videos = new Swiper('.p-videos-swiper', {
+            navigation: {
+                prevEl: '.p-videos .prev',
+                nextEl: '.p-videos .next'
+            },
+
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                }
+            }
+        })
+
+        
+
+        const modal_news = document.getElementById('modal-news');
+        const modal_news_close = document.querySelector('.modal-news-close');
+
+        document.body.addEventListener('click', (e) => {
+            let target = e.target;
+
+            if (target.classList.contains('modal-news-close') || target.classList.contains('modal-news')) closeModalNews(target);
+            if (target.dataset.openModal) theShowModal(target);
+            if (target.dataset.btn === 'votes') endVotes(target);
+        })
+        
+        function closeModalNews(t) {
+            modal_news.classList.remove('_active')
+        }
+
+        function theShowModal (t) {
+            let id = t.dataset.openModal;
+            const modal = document.getElementById(id);
+
+            modal.classList.add('_active');
+            
+        }
+
+        function endVotes (t) {
+            const start_block = document.querySelector('._p-votes-start');
+            const end_block = document.querySelector('._p-votes-end');
+
+            start_block.style.display = 'none';
+            end_block.style.display = 'block';
+        }
+
+        
+    </script>
+</body>
+</html>
